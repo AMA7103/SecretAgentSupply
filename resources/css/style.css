@@ -1,0 +1,190 @@
+html {
+  font-size: 18px;
+}
+#no {
+  display: none;
+}
+nav {
+  display: inline;
+}
+body {
+  font-family: Helvetica;
+  color: white;
+}
+img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+.header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.container {
+  width: 960px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  height: 2.32rem;
+}
+.title {
+  height: 25rem;
+  font-weight: bold;
+  width: 100%;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title-text {
+  background-color: black;
+  height: 10rem;
+  width: 25rem;
+  position: relative;
+  top: 9rem;
+  margin-left: 6rem;
+}
+h4{
+  font-size: 1rem;
+}
+.title-text h4,h1{
+  margin-left: 3rem;
+  position: relative;
+  top: 2rem;
+}
+h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.navagation {
+  background-color: firebrick;
+  font-size: 1rem;
+  height: 2.5rem;
+  margin-bottom: 3rem;
+}
+.yes {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+.grid {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.grid-item img {
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.grid-item{
+  display: inline-flex;
+  border: 4px solid black;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.grid-item h2 {
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+.L-H {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.item h2 {
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+.item {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.item h4 {
+  color : black;
+}
+.footer {
+  margin-top: 4rem;
+  height: 10rem;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 1175px) {
+  .grid-item {
+    width: 47%;
+  }
+  .one {
+    display: none;
+  }
+  .yes {
+    display: none;
+  }
+  #no {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+  .container {
+    font-size: 0.75rem;
+  }
+}
+@media only screen and (max-width: 559px) {
+  .footer {
+    justify-content: center;
+  }
+  .two {
+    display: none;
+  }
+  .grid-item {
+    width: 90%;
+  }
+  .L-H {
+    flex-direction: column;
+    align-items: center;
+  }
+  .item {
+    width: 90%;
+  }
+  .grid {
+    justify-content: center;
+  }
+  .title {
+    height: 15rem;
+  }
+  .title-text {
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    top: 11rem;
+    margin-left: 0;
+  }
+  .title-text h4,h1{
+    margin-left: 2rem;
+    position: relative;
+    top: 1rem;
+  }
+  h1 {
+    font-size: 1rem;
+    margin-top: 0.25rem;
+  }
+  h4 {
+    font-size: 0.77rem;
+  }
+  .loc {
+    margin-bottom: 0.5rem;
+  }
+}
